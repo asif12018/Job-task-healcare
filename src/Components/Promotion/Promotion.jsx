@@ -1,10 +1,11 @@
 import { MdArrowOutward } from "react-icons/md";
 
+import logo from '../../../public/logolight.png'
 
 const Promotion = () => {
     return (
         <div
-        className="hero min-h-[470px] mb-[40px] mt-[100px]"
+        className="hero min-h-[470px] mt-[100px] mb-[100px] relative"
         style={{
           backgroundImage: "radial-gradient(648.07% 142.78% at 98.23% 78.35%, #020043 0%, rgba(2, 0, 67, 0.30) 100%),url(https://i.postimg.cc/KYSSMxYY/Rectangle32.png)",
           borderRadius:"43px"
@@ -26,6 +27,9 @@ at 50% Off!</h3>
       </div>
             
           </div>
+        </div>
+        <div className="absolute top-12 right-20">
+            <img src={logo} alt="" />
         </div>
       </div>
     );

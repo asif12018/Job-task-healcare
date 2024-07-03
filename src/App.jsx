@@ -10,13 +10,14 @@ import Services from './Components/Services/Services'
 import Testimonial from './Components/Testimonial/Testimonial'
 import Faq from './Components/Faq/Faq'
 import Promotion from './Components/Promotion/Promotion'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
 
   return (
-   
-      <div className='max-w-[1160px] mx-auto'>
+      <div>
+           <div className='max-w-[1160px] mx-auto'>
        {/**===== header start from here ====== */}
 
        <Header></Header>
@@ -42,7 +43,13 @@ function App() {
        <Faq></Faq>
        {/**=========   Promotion Banner    ========== */}
        <Promotion></Promotion>
+       
       </div>
+
+      {/**======  footer    ======== */}
+      <Footer></Footer>
+      </div>
+      
   
   )
 }
