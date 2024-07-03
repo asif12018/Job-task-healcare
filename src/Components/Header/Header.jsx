@@ -2,7 +2,7 @@ import logo from '../../../public/logo-dark.png'
 
 const Header = () => {
     return (
-        <div className="py-[50px] ">
+        <div className="py-[30px] ">
             <div className="navbar ">
   <div className="navbar-start">
     <div className="dropdown">

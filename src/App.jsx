@@ -5,6 +5,9 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Banner from './Components/Banner/Banner'
 import BannerStats from './Components/BannerStats/BannerStats'
+import Hero from './Components/Hero/Hero'
+import Services from './Components/Services/Services'
+import Testimonial from './Components/Testimonial/Testimonial'
 
 function App() {
 
@@ -23,6 +26,17 @@ function App() {
        {/**=====  banner stats start from here ======= */}
 
        <BannerStats></BannerStats>
+
+       {/**======== hero section start from here =========== */}
+       <Hero></Hero>
+
+       {/*========  services section start from here  =======*/}
+       <Services></Services>
+
+       {/*========    testimonial   ===========*/}
+       <Testimonial></Testimonial>
+
+       
       </div>
   
   )
