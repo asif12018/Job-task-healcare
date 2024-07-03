@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Components/Header/Header'
 import Banner from './Components/Banner/Banner'
+import BannerStats from './Components/BannerStats/BannerStats'
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
        {/**====== banner section start form here ======= */}
 
        <Banner></Banner>
+
+       {/**=====  banner stats start from here ======= */}
+
+       <BannerStats></BannerStats>
       </div>
   
   )
