@@ -8,6 +8,8 @@ import BannerStats from './Components/BannerStats/BannerStats'
 import Hero from './Components/Hero/Hero'
 import Services from './Components/Services/Services'
 import Testimonial from './Components/Testimonial/Testimonial'
+import Faq from './Components/Faq/Faq'
+import Promotion from './Components/Promotion/Promotion'
 
 function App() {
 
@@ -36,7 +38,10 @@ function App() {
        {/*========    testimonial   ===========*/}
        <Testimonial></Testimonial>
 
-       
+       {/*==========      FAQ        =========*/}
+       <Faq></Faq>
+       {/**=========   Promotion Banner    ========== */}
+       <Promotion></Promotion>
       </div>
   
   )
