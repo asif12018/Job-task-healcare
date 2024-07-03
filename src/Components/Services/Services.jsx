@@ -23,7 +23,7 @@ const Services = () => {
 
 
             <div className=" relative">
-               <img className="rounded-3xl " src={xray} alt="" />
+               <img className="rounded-3xl w-full" src={xray} alt="" />
                <div className='hidden md:flex md:flex-col bg-[#343268] opacity-80 w-4/5 text-white rounded-3xl absolute bottom-10 translate-x-[30px]'>
                             <h3 className='text-[26px] font-[500] pt-[47px] pl-[30px] '>Our mission is simple</h3>
                             
