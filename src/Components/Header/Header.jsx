@@ -2,8 +2,8 @@ import logo from '../../../public/logo-dark.png'
 
 const Header = () => {
     return (
-        <div className="py-[50px]">
-            <div className="navbar bg-base-100">
+        <div className="py-[50px] ">
+            <div className="navbar ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -41,7 +41,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn btn-outline w-[174px] h-[48px] !text-[#020043] rounded-2xl !outline-[#343268]">Appointment</a>
   </div>
 </div>
         </div>
